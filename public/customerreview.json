@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Md. Abdullah",
+        "img": "./images/user-1.png",
+        "user_review": "Great, Gaming PC. All configuration sounds good!",
+        "ratings": 4
+    },
+    {
+        "id": 2,
+        "name": "Akkas Mia",
+        "img": "./images/user-2.png",
+        "user_review": "One of the best gaming PC. Recommened for all.",
+        "ratings": 4.5
+    },
+    {
+        "id": 3,
+        "name": "Shakib Khan",
+        "img": "./images/user-3.png",
+        "user_review": "Excelent Configuration! One of the best PC I've ever used.",
+        "ratings": 5
+    },
+    {
+        "id": 4,
+        "name": "Karim Uddin",
+        "img": "./images/user-4.png",
+        "user_review": "This is average configuration. Recommended for light user.",
+        "ratings": 3.5
+    },
+    {
+        "id": 5,
+        "name": "Mohammad Absar",
+        "img": "./images/user-5.png",
+        "user_review": "Graphics card is awosome. Best for video editing.",
+        "ratings": 4.5
+    },
+    {
+        "id": 6,
+        "name": "Saifullah Khan",
+        "img": "./images/user-6.png",
+        "user_review": "Smooth game play! Recommended for all gamers.",
+        "ratings": 5
+    }
+]

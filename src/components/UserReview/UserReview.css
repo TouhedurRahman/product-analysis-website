@@ -1,0 +1,23 @@
+.review {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-details {
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 3px 6px 28px 7px #000000;
+    width: 500px;
+    height: 200px;
+
+}
+
+.review img {
+    box-shadow: 3px 6px 28px 7px #000000;
+    margin: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
