@@ -10,8 +10,8 @@ const Dashboard = () => {
     return (
         <div className='dashboard-body'>
             <div className="line-chart">
-                <h3 className='text-center'>Invested vs Revenew</h3>
-                <LineChart width={500} height={300} data={data}
+                <h3 className='text-center'>Investment <br /> vs. <br /> Revenue</h3>
+                <LineChart width={380} height={300} data={data}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -23,8 +23,8 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div className="area-chart">
-                <h3 className='text-center'>Invested vs Revenew</h3>
-                <AreaChart width={500} height={300} data={data}
+                <h3 className='text-center'>Investment <br /> vs. <br /> Revenue</h3>
+                <AreaChart width={380} height={300} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -45,8 +45,8 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
             <div className="bar-chart">
-                <h3 className='text-center'>Invested vs Revenew</h3>
-                <BarChart width={500} height={300} data={data}>
+                <h3 className='text-center'>Investment <br /> vs. <br /> Revenue</h3>
+                <BarChart width={380} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />
@@ -57,8 +57,8 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div className="pie-chart">
-                <h3 className='text-center'>Invested vs Revenew</h3>
-                <ComposedChart width={500} height={300} data={data}>
+                <h3 className='text-center'>Investment <br /> vs. <br /> Revenue</h3>
+                <ComposedChart width={380} height={300} data={data}>
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />

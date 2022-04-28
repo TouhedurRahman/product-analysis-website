@@ -1,11 +1,10 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import './ProductContainer.css';
 
 const ProductContainer = () => {
     return (
         <div className="product">
-            <div className="product-details">
+            <div className="product-details grid-horizoltally">
                 <h4>Asus ROG Strix G15 G513IE Ryzen 7 4800H RTX 3050Ti 4GB Graphics 15.6" FHD Gaming Laptop</h4>
 
                 <br />
@@ -24,7 +23,7 @@ const ProductContainer = () => {
 
                 <button className='live-demo-btn'>Live Demo</button>
             </div>
-            <div className="product-picture">
+            <div className="product-picture grid-horizoltally">
                 <img src='images/gaming-pc.png' alt='Gaming-PC...'></img>
             </div>
         </div>

@@ -1,8 +1,72 @@
 .dashboard-body {
+    text-align: center;
     margin: 35px;
-    padding: 20px;
+    padding: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-self: center;
-    grid-gap: 20px;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.line-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:688px) {
+    .dashboard-body {
+        margin: 35px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-self: center;
+        grid-gap: 20px;
+    }
+
+    .line-chart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area-chart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar-chart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pie-chart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
 }

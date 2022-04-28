@@ -5,19 +5,20 @@
     align-items: center;
 }
 
-.review-details {
-    border-radius: 30px;
-    padding: 25px;
-    box-shadow: 3px 6px 28px 7px #000000;
-    width: 500px;
-    height: 280px;
-}
 
 .review img {
     box-shadow: 3px 6px 28px 7px #000000;
     margin: 20px;
     border-radius: 50%;
     width: 280px;
+    height: 280px;
+}
+
+.review-details {
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 3px 6px 28px 7px #000000;
+    width: 500px;
     height: 280px;
 }
 
@@ -63,4 +64,34 @@
 .user-profile-btn:active {
     box-shadow: none;
     transform: translateY(0);
+}
+
+@media only screen and (max-width:688px) {
+    .review {
+        margin: 30px auto;
+        padding: 20px 75px;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        justify-content: center;
+    }
+
+    .review img {
+        box-shadow: 3px 6px 28px 7px #000000;
+        margin: 20px 65px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .review-details {
+        border-radius: 30px;
+        padding: 5px;
+        box-shadow: 3px 6px 28px 7px #000000;
+        width: 280px;
+        max-height: 500px;
+    }
+
+    .user-profile-btn {
+        margin-bottom: 35px;
+    }
 }
