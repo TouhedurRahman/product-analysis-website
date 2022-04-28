@@ -1,0 +1,8 @@
+.dashboard-body {
+    margin: 35px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    grid-gap: 20px;
+}
