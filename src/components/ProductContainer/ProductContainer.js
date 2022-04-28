@@ -22,7 +22,7 @@ const ProductContainer = () => {
 
                 <br />
 
-                <button className='button-28'>Live Demo</button>
+                <button className='live-demo-btn'>Live Demo</button>
             </div>
             <div className="product-picture">
                 <img src='images/gaming-pc.png' alt='Gaming-PC...'></img>

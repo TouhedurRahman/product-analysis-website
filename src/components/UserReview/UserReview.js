@@ -9,9 +9,11 @@ const UserReview = (props) => {
             <div className='review'>
                 <img src={img} alt="" />
                 <div className='review-details'>
-                    <h3>{name}</h3>
-                    <h4>{user_review}</h4>
-                    <h4>Ratings: {ratings}</h4>
+                    <h2><b><i>{name}</i></b></h2>
+                    <h5>{user_review}</h5>
+                    <br />
+                    <h5>Ratings: {ratings}</h5>
+                    <button className='user-profile-btn'>User Profile</button>
                 </div>
             </div>
             <hr />

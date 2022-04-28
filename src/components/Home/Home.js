@@ -24,7 +24,7 @@ const Home = () => {
                     }
                 </div>
                 <CustomLink to="/review">
-                    <button className='button-28'>See All Reviews</button>
+                    <button className='see-all-reviews-btn'>See All Reviews</button>
                 </CustomLink>
             </div>
         </div>
